@@ -278,8 +278,42 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>startLevel2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>162</x>
+     <y>42</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>107</x>
+     <y>45</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>startLevel3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>44</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>45</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>startLevel1()</slot>
+  <slot>startLevel2()</slot>
+  <slot>startLevel3()</slot>
  </slots>
 </ui>
