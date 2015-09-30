@@ -310,10 +310,61 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>startLevel4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>358</x>
+     <y>65</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>389</x>
+     <y>50</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>startLevel5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>161</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>107</x>
+     <y>163</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>startLevel6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>152</x>
+     <y>132</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>197</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>startLevel1()</slot>
   <slot>startLevel2()</slot>
   <slot>startLevel3()</slot>
+  <slot>startLevel4()</slot>
+  <slot>startLevel5()</slot>
+  <slot>startLevel6()</slot>
  </slots>
 </ui>

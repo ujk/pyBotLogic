@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>level2Dialog</class>
- <widget class="QDialog" name="level2Dialog">
+ <class>level4Dialog</class>
+ <widget class="QDialog" name="level4Dialog">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>526</width>
-    <height>300</height>
+    <width>602</width>
+    <height>354</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>LEVEL 2</string>
+   <string>LEVEL 4</string>
   </property>
   <widget class="QTableWidget" name="map">
    <property name="geometry">
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>320</width>
-     <height>160</height>
+     <width>400</width>
+     <height>200</height>
     </rect>
    </property>
    <property name="verticalScrollBarPolicy">
@@ -32,10 +32,10 @@
     <set>QAbstractItemView::NoEditTriggers</set>
    </property>
    <property name="rowCount">
-    <number>4</number>
+    <number>5</number>
    </property>
    <property name="columnCount">
-    <number>8</number>
+    <number>10</number>
    </property>
    <attribute name="horizontalHeaderVisible">
     <bool>false</bool>
@@ -47,6 +47,7 @@
    <row/>
    <row/>
    <row/>
+   <row/>
    <column/>
    <column/>
    <column/>
@@ -55,6 +56,36 @@
    <column/>
    <column/>
    <column/>
+   <column/>
+   <column/>
+   <item row="0" column="3">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="background">
+     <brush brushstyle="DiagCrossPattern">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="0" column="7">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="background">
+     <brush brushstyle="DiagCrossPattern">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
    <item row="1" column="1">
     <property name="text">
      <string/>
@@ -83,7 +114,7 @@
      <string/>
     </property>
     <property name="background">
-     <brush brushstyle="DiagCrossPattern">
+     <brush brushstyle="NoBrush">
       <color alpha="255">
        <red>0</red>
        <green>0</green>
@@ -97,7 +128,7 @@
      <string/>
     </property>
     <property name="background">
-     <brush brushstyle="DiagCrossPattern">
+     <brush brushstyle="NoBrush">
       <color alpha="255">
        <red>0</red>
        <green>0</green>
@@ -111,7 +142,7 @@
      <string/>
     </property>
     <property name="background">
-     <brush brushstyle="DiagCrossPattern">
+     <brush brushstyle="NoBrush">
       <color alpha="255">
        <red>0</red>
        <green>0</green>
@@ -125,7 +156,7 @@
      <string/>
     </property>
     <property name="background">
-     <brush brushstyle="DiagCrossPattern">
+     <brush brushstyle="NoBrush">
       <color alpha="255">
        <red>0</red>
        <green>0</green>
@@ -162,7 +193,35 @@
      </brush>
     </property>
    </item>
-   <item row="3" column="3">
+   <item row="2" column="2">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="2" column="4">
     <property name="text">
      <string/>
     </property>
@@ -176,12 +235,79 @@
      </brush>
     </property>
    </item>
-   <item row="3" column="4">
+   <item row="2" column="5">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="2" column="6">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="2" column="8">
+    <property name="background">
+     <brush brushstyle="DiagCrossPattern">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="3" column="1">
     <property name="text">
      <string/>
     </property>
     <property name="background">
      <brush brushstyle="DiagCrossPattern">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="3" column="3">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="3" column="4">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
       <color alpha="255">
        <red>0</red>
        <green>0</green>
@@ -209,7 +335,7 @@
      <string/>
     </property>
     <property name="background">
-     <brush brushstyle="DiagCrossPattern">
+     <brush brushstyle="NoBrush">
       <color alpha="255">
        <red>0</red>
        <green>0</green>
@@ -222,6 +348,28 @@
     <property name="text">
      <string/>
     </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="3" column="8">
+    <property name="background">
+     <brush brushstyle="DiagCrossPattern">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="4" column="3">
     <property name="background">
      <brush brushstyle="DiagCrossPattern">
       <color alpha="255">
@@ -240,9 +388,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>180</y>
-     <width>321</width>
-     <height>111</height>
+     <y>220</y>
+     <width>401</width>
+     <height>121</height>
     </rect>
    </property>
    <property name="html">
@@ -250,8 +398,8 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Seviye 2&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Hadi bakalım duvarlara çarpmadan eve ulaşabilecek misin.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Seviye 4&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Ekranı biraz büyüttük en kısa yolu bul bakalım.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Bu bölümde kullanabileceğiniz komutlar:&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;sağa(x):&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; bu komutu kullanırsanız sağa doğru x adım atarsınız eğer x değeri girmezseniz 1 adım atılacaktır. &lt;/span&gt;&lt;/p&gt;
@@ -335,10 +483,10 @@ p, li { white-space: pre-wrap; }
   <widget class="QTextEdit" name="prgText">
    <property name="geometry">
     <rect>
-     <x>340</x>
+     <x>420</x>
      <y>60</y>
      <width>171</width>
-     <height>191</height>
+     <height>241</height>
     </rect>
    </property>
    <property name="placeholderText">
@@ -348,8 +496,8 @@ p, li { white-space: pre-wrap; }
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>340</x>
-     <y>260</y>
+     <x>420</x>
+     <y>310</y>
      <width>51</width>
      <height>31</height>
     </rect>
@@ -368,8 +516,8 @@ p, li { white-space: pre-wrap; }
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>260</y>
+     <x>480</x>
+     <y>310</y>
      <width>51</width>
      <height>31</height>
     </rect>
@@ -388,8 +536,8 @@ p, li { white-space: pre-wrap; }
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>460</x>
-     <y>260</y>
+     <x>540</x>
+     <y>310</y>
      <width>51</width>
      <height>31</height>
     </rect>
@@ -408,7 +556,7 @@ p, li { white-space: pre-wrap; }
   <widget class="QLCDNumber" name="powerLcd">
    <property name="geometry">
     <rect>
-     <x>340</x>
+     <x>420</x>
      <y>10</y>
      <width>171</width>
      <height>41</height>
@@ -497,7 +645,7 @@ p, li { white-space: pre-wrap; }
   <connection>
    <sender>pushButton</sender>
    <signal>clicked()</signal>
-   <receiver>level2Dialog</receiver>
+   <receiver>level4Dialog</receiver>
    <slot>playClicked()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -513,7 +661,7 @@ p, li { white-space: pre-wrap; }
   <connection>
    <sender>pushButton_2</sender>
    <signal>clicked()</signal>
-   <receiver>level2Dialog</receiver>
+   <receiver>level4Dialog</receiver>
    <slot>saveClicked()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -529,7 +677,7 @@ p, li { white-space: pre-wrap; }
   <connection>
    <sender>pushButton_3</sender>
    <signal>clicked()</signal>
-   <receiver>level2Dialog</receiver>
+   <receiver>level4Dialog</receiver>
    <slot>resetClicked()</slot>
    <hints>
     <hint type="sourcelabel">
